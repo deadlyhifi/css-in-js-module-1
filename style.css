@@ -19,7 +19,7 @@ body {
 header,
 .card {
   background-color: white;
-  border-bottom: 5px solid hsl(0deg 0% 40%);
+  border-block-end: 5px solid hsl(0deg 0% 40%);
 }
 
 .intro-chunk {
@@ -48,8 +48,9 @@ main {
 .indented-heading {
   width: fit-content;
   background-color: hsl(45deg 100% 50%);
-  border-bottom: 5px solid hsl(45deg 98% 40%);
+  border-block-end: 5px solid hsl(45deg 98% 40%);
   padding: 30px;
-  margin-left: -30px;
-  margin-top: -10px;
+  padding-inline-start: 40px;
+  margin-inline-start: -40px;
+  margin-block-start: -10px;
 }
